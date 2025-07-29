@@ -30,9 +30,10 @@ public static WebDriver driver;
 public Logger logger;
 public Properties p;
 	
+
 	@BeforeClass(groups= {"Sanity","Regression","Master","Datadriven"})
 	@Parameters({"os","browser"})
-	public void setup(String os,String br ) throws IOException
+	public void setup(String os,String br ) throws IOException, InterruptedException
 	{
 		//Loading config.properties file
 		FileReader 	file= new FileReader("./src//test//resources//config.properties");
@@ -49,7 +50,7 @@ public Properties p;
 			{
 				capabilities.setPlatform(Platform.WIN10);
 			}
-			if(os.equalsIgnoreCase("linux"))
+			else if(os.equalsIgnoreCase("linux"))
 			{
 				capabilities.setPlatform(Platform.LINUX);
 			}
@@ -84,17 +85,16 @@ public Properties p;
 			case "firefox":driver = new FirefoxDriver();break;
 			default: System.out.println("Invalid browser name..");return;
 		}
+		
 			
 			}
 		driver.manage().deleteAllCookies();
 		driver.get(p.getProperty("appURL"));//Reading browser
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2));
 		driver.manage().window().maximize();
-		}	
-	private void Switch(String lowerCase) {
-		// TODO Auto-generated method stub
 		
-	}
+		}	
+	
 	@AfterClass(groups= {"Sanity","Master","Regression"})
 	public void tearDown()
 	{
@@ -129,8 +129,9 @@ public Properties p;
 		sourceFile.renameTo(targetFile);
 		return targetFilePath;
 		
-	}
+	
 
 
 
+}
 }

@@ -1,7 +1,5 @@
 package testCases;
 
-import java.util.logging.Logger;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

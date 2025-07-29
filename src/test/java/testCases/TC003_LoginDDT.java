@@ -1,6 +1,8 @@
 package testCases;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import Utilities.DataProviders;
@@ -16,7 +18,9 @@ import testBase.BaseClass;
  Data is invalid--login failed -test failed */
 
 public class TC003_LoginDDT extends BaseClass {
+	
 	@Test(dataProvider="LoginData", dataProviderClass=DataProviders.class,groups="Datadriven")//Getting dataproviders from defferent class
+	
 	public void verify_loginDDT(String email, String pwd, String exp)
 	{
 		logger.info("***Startng TC003_LoginDDT test****");

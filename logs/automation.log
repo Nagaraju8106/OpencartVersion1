@@ -1,11 +1,53 @@
-11:02:51.236 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+21:06:35.774 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml"
+21:06:36.405 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
   C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml
 
-11:03:01.546 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC))!_AccountRegistrationTest...***
-11:03:01.756 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account link....
-11:03:02.412 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on registred link...
-11:03:02.416 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details...
-11:03:14.496 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
-11:03:14.547 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest..
-11:03:21.847 [main] INFO  testCases.TC002_LoginTest - ***Starting TC002_ LoginTest***
-11:03:23.797 [main] INFO  testCases.TC002_LoginTest - ****Finished TC02_LoginTest****
+21:06:42.656 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC))!_AccountRegistrationTest...***
+21:07:30.114 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml"
+21:07:30.743 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml
+
+21:07:37.508 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC))!_AccountRegistrationTest...***
+21:09:28.445 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml"
+21:09:29.101 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml
+
+21:09:55.363 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC))!_AccountRegistrationTest...***
+21:11:07.100 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml"
+21:11:07.779 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml
+
+21:11:35.425 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC))!_AccountRegistrationTest...***
+21:12:41.156 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml"
+21:12:41.794 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml
+
+21:13:08.084 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC))!_AccountRegistrationTest...***
+21:14:59.699 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml"
+21:15:00.355 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml
+
+21:15:28.015 [main] INFO  testCases.TC001_AccountRegistrationTest - ***Starting TC))!_AccountRegistrationTest...***
+21:15:28.222 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on My Account link....
+21:15:29.907 [main] INFO  testCases.TC001_AccountRegistrationTest - Clicked on registred link...
+21:15:29.913 [main] INFO  testCases.TC001_AccountRegistrationTest - Providing customer details...
+21:15:42.005 [main] INFO  testCases.TC001_AccountRegistrationTest - Validating expected message....
+21:15:42.092 [main] INFO  testCases.TC001_AccountRegistrationTest - *** Finished TC001_AccountRegistrationTest..
+21:19:32.169 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml"
+21:19:32.839 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml
+
+21:19:39.858 [main] INFO  testCases.TC004_SearchProductTest - Starting TC004_SearchProductTest
+21:19:52.296 [main] INFO  testCases.TC004_SearchProductTest - Finshed...TC004_SearchProductTest..
+21:20:13.745 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml"
+21:20:14.394 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml
+
+21:20:21.813 [main] INFO  testCases.TC004_SearchProductTest - Starting TC004_SearchProductTest
+21:20:33.200 [main] INFO  testCases.TC004_SearchProductTest - Finshed...TC004_SearchProductTest..
+21:22:33.363 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml"
+21:22:34.008 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\DELL\eclipse-workspace\OpencartVersion1\Master.xml
+
+21:22:40.985 [main] INFO  testCases.TC004_SearchProductTest - Starting TC004_SearchProductTest
+21:23:12.812 [main] INFO  testCases.TC004_SearchProductTest - Finshed...TC004_SearchProductTest..
